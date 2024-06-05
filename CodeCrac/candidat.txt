@@ -1,0 +1,13 @@
+my_dict = [['президент', 'The President'],['провел', 'held'],['встречу', 'meeting'],['с ', 'with'],['руководителями', 'the heads of'],['парламентских', 'parliamentary'],['фракций', 'factions']]
+text = "президент провел встречу с руководителями парламентских фракций встречу фракций"
+ 
+words = text.split()
+ 
+seen_words = set()
+ 
+for word in sorted(words):
+    for pair in my_dict:
+        if word == pair[0] and word not in seen_words:
+            print(f"{word} {pair[1]}")
+            seen_words.add(word)
+            break

@@ -1,0 +1,3 @@
+name: Elbol
+age: 32
+city: Shengel'dy

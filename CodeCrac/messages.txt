@@ -1,0 +1,15 @@
+1
+2
+5
+6
+& C:/Users/admin/AppData/Local/Programs/Python/Python312/python.exe c:/Users/admin/Desktop/CodeCrac/text.py
+quit
+clear
+df
+df d
+f df
+f df
+ fdf
+ fdf
+ fdf
+ df
